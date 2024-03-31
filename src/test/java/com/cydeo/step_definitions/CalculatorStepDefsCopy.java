@@ -30,8 +30,6 @@ public class CalculatorStepDefsCopy {
     public void teaasdasd(String button5){
         new CalculatorPageCopy().button(button5).click();
         //System.out.println();
-        //System.out.println();
-        System.out.println("asda");
     }
 
     @Then("result is {string}")
@@ -39,7 +37,6 @@ public class CalculatorStepDefsCopy {
         String actualResult = new CalculatorPageCopy().outPut.getText().trim();
         System.out.println(actualResult);
         Assert.assertEquals(actualResult,expectedResult);
-        System.out.println("a");
     }
 
     @Given("go to calculator percentage page")
