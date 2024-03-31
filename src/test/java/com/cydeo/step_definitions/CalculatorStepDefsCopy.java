@@ -30,6 +30,7 @@ public class CalculatorStepDefsCopy {
     public void teaasdasd(String button5){
         new CalculatorPageCopy().button(button5).click();
         //System.out.println();
+        System.out.println("a");
     }
 
     @Then("result is {string}")
