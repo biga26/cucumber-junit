@@ -5,9 +5,9 @@ Feature: Calculator Tests
     Given User is on calculator page
   @smoke
   Scenario: Test Adding
-    When User clicks "5" on calculator
+    When User clicks "4" on calculator
     And User clicks "+" on calculator
-    And User clicks "5" on calculator
+    And User clicks "6" on calculator
     Then result "10" should be displayed
 
 
