@@ -23,7 +23,7 @@ public class aaaStepDefinitions {
         String inputText = aaaPage.input.getText().trim();
         System.out.println(inputText);
         Assert.assertEquals("right", inputText,button);
-        System.out.println("a");
+        System.out.println("aaa");
     }
 
     @Then("result should be {string} on calculator")
